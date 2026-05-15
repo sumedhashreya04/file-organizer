@@ -15,3 +15,7 @@ os.chdir(path)
 with open("example.txt",'w') as f:
     f.write("Hello World")
 shutil.copy("example.txt","example2.txt")
+'''
+'''
+os.chdir("Users/sumedhashreya/Desktop/Coding/Python")
+shutil.move("deleteit2","deletit2")
